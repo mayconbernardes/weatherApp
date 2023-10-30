@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Previsão do Tempo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="card">
+        <div class="search">
+            <input type="text" placeholder="Escolha uma cidade" spellcheck="false" name="search" id=search">
+            <button><img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/search.png?raw=true" alt="search"></button>
+        </div>
+
+        <div class="error">
+            <p>Cidade invalida</p>
+        </div>
+
+        <div class="weather">
+            <img src="https://cdn.icon-icons.com/icons2/1077/PNG/512/cloud_77954.png" class="weather-icon" alt="rain">
+            <h1 class="temp">22°C</h1>
+            <h3 class="temp">sensação<span class="feels-like">22</span>°C</h3>
+            <h2 class="city">Araras-sp</h2>
+            <h3 class="country">Brasil</h3>
+
+            <div class="details">
+                <div class="col">
+                    <img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/humidity.png?raw=true" alt="humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidade</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/wind.png?raw=true" alt="wind">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Velocidade do vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
